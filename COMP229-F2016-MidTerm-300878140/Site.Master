@@ -1,5 +1,10 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP229_F2016_MidTerm_300878140.Site" %>
 
+<!-- Name:Anmol Sharma
+     Student ID: 300878140
+     Date:19 October,2016 
+     Site.Master file -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
@@ -49,13 +54,13 @@
         <!-- Footer -->
         <footer class="footer navbar navbar-fixed-bottom bg-info">
             <div class="container">
-                <p class="text-muted">&copy; 2016 ASP.NET Web Forms Todo List</p>
+               <p class="text-muted">&copy; Anmol Sharma (student ID: 300878140)</p>
             </div>
         </footer>
     </form>
 
     <!-- JavaScript -->
-    <script src="Scripts/jquery-2.2.3.min.js"></script>
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/app.js"></script>
 </body>

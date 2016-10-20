@@ -1,4 +1,11 @@
-﻿$(document).ready(function () {
+﻿/* Name:Anmol Sharma
+     Student ID: 300878140
+     Date:19 October,2016 
+     app.css file */
+
+
+
+$(document).ready(function () {
 
     console.log("app started");
 

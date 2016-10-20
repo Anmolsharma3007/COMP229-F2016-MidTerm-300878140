@@ -14,18 +14,21 @@
                 <a href="TodoDetails.aspx" class="btn btn-success btn-sm">
                     <i class="fa fa-plus"></i> Add Todos
                 </a>
-                <asp:GridView ID="TodoGridView" runat="server" AutoGenerateColumns="false"  CssClass="table table-bordered table-striped table-hover" OnRowDeleting="TodoGridView_RowDeleting" DataKeyNames="TodoID">
+                <br />
+           
+                <asp:GridView ID="TodoGridView" runat="server" AutoGenerateColumns="false"  CssClass="table table-bordered table-striped table-hover" OnRowDeleting="TodoGridView_RowDeleting" DataKeyNames="TodoID" >
                     <Columns>
                         <asp:BoundField DataField="TodoID" HeaderText="Todo ID" Visible="true" />
                         <asp:BoundField DataField="TodoDescription" HeaderText="Todo Name" Visible="true" />
                         <asp:BoundField DataField="TodoNotes" HeaderText="Todo Notes" Visible="true" />
                         <asp:BoundField DataField="Completed" HeaderText="Complete" Visible="true" />
 
-                        <asp:CommandField HeaderText="EdiT" EditText="Edit" ShowEditButton="true" ButtonType="Link"
-                             ControlStyle-CssClass=" btn btn-"/>
+                        <asp:CommandField HeaderText="EdiT" EditText="<i class='fa fa-pencil' aria-hidden='true'></i>Edit" ShowEditButton="true" ButtonType="Link"
+                             ControlStyle-CssClass=" btn btn-primary btn-sm"/>
                         
                         <asp:CommandField HeaderText="Delete" DeleteText="<i class='fa fa-trash-o fa-lg'></i> Delete"
                             ShowDeleteButton="true" ButtonType="Link" ControlStyle-CssClass="btn btn-danger btn-sm" />
+
                     </Columns>
                 </asp:GridView>
 
